@@ -117,9 +117,7 @@ A first-person shooter multiplayer game based on Unity3D.
 * Mouse and keyboard
   * The traditional way
   * Cheap and easy to use
-* Kinect
-  * See below for details
-  * *This part was implemented by my friend [Ruochen Jiang](https://github.com/VHUCXAONG), many thanks to him!*
+  * 
 * playstaion Controller
   * Like the combination of mouse and keyboard
   * Most Xbox games use this way to play
