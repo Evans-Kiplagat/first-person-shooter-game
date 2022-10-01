@@ -1,14 +1,14 @@
-# Multiplayer-FPS
+# FPS--Multiplayer--
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Template from jarvis](https://img.shields.io/badge/Hi-Jarvis-ff69b4.svg)](https://github.com/Armour/Jarvis)
 
-A multiplayer first-person shooter game based on Unity3D. Different types of input devices are supported, including Kinect, Xbox controllers, Leap motion, and VR Glasses. (Each contained in a different branch, *UPDATE: those are not maintained since 2020, use at your own risk*)
+A first-person shooter multiplayer game based on Unity3D.
 
 ## Requirement
 
-[Unity 2020.3.4f1 (LTS)](https://unity.cn/release-notes/lts/2020/2020.3.4f1)
+[Unity 2021.3.8f1 (LTS)](https://unity.cn/release-notes/lts/2021/2021.3.8f1)
 
 ## Game logic and functionality
 
@@ -120,28 +120,16 @@ A multiplayer first-person shooter game based on Unity3D. Different types of inp
 * Kinect
   * See below for details
   * *This part was implemented by my friend [Ruochen Jiang](https://github.com/VHUCXAONG), many thanks to him!*
-* Xbox Controller
+* playstaion Controller
   * Like the combination of mouse and keyboard
   * Most Xbox games use this way to play
-* Leap Motion
-  * User hand gesture to control game
-  * A more advanced interaction that might become popular in the future
-* VR glasses
-  * More vivid and closer to reality
-  * Recently very popular but devices are most likely expensive
-  * Players cannot move now due to the limitation of my device
 
 ### Kinect Details
 
 * Tools and Platform:
-  * Kinect for Xbox One
-  * Kinect for Windows SDK
   * Unity
   * Visual Studio
-
-* Recognition Method:
-  * Use Kinect for Windows SKD (BodySourceManager) to get the positions of the player's skeleton. Determine the actions of moving, jumping, shooting based on these positions and regard rotation as an input of the game.
-
+  
 * **Shooting**：
   * Users can trigger shooting by lifting their right arms. The game calculates the distance between the user's right hand and right shoulder based on skeleton nodes. Shooting will be triggered if the calculated distance reaches a threshold.
 
@@ -156,11 +144,5 @@ A multiplayer first-person shooter game based on Unity3D. Different types of inp
 
 * <img src="Images/skeleton_overview.png" style="width:110px"> </img><img src="Images/shooting.png" style="width:134px"></img> <img src="Images/jumping.png" style="width:122px"> </img><img src="Images/rotation.png" style="width:156px"></img>
 
-## Contribution
 
-See [CONTRIBUTING.md](https://github.com/Armour/Multiplayer-FPS/blob/master/.github/CONTRIBUTING.md)
-
-## License
-
-[MIT License](https://github.com/Armour/Multiplayer-FPS/blob/master/LICENSE)
 # first-person-shooter-game
